@@ -1,5 +1,14 @@
 # AKI Prediction Model: Data Preprocessing, Modeling, and Evaluation
 
+**Repository**: [https://github.com/Iory-lab/Model-3.0](https://github.com/Iory-lab/Model-3.0)  
+**Commit hash**: `842928e` (reproducible version cited in the manuscript)  
+**R version**: 4.4.2  
+
+install.packages(c(
+  "readr", "readxl", "openxlsx", "mice", "caret", "glmnet", "plyr", "corrplot", "ggplot2",
+  "Hmisc", "tableone", "dplyr", "mfp", "pROC", "calibrate", "MASS", "rms", "riskRegression",
+  "car", "rmda", "survival", "nricens", "foreign", "e1071"))
+
 ## Overview
 
 This repository contains R code and data used for developing and evaluating a predictive model for Acute Kidney Injury (AKI) based on preoperative clinical variables. The pipeline includes data preprocessing, handling of missing values via multiple imputation, feature selection using Lasso regression, model development using logistic regression, and performance evaluation through various metrics, including AUC, sensitivity, specificity, and F1 score. The model’s calibration and clinical utility are assessed using calibration curves and decision curve analysis (DCA), and its improvement over the baseline model is quantified using the Net Reclassification Improvement (NRI).
