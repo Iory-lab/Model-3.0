@@ -1,7 +1,6 @@
 # AKI Prediction Model: Data Preprocessing, Modeling, and Evaluation
 
-**Repository**: [https://github.com/Iory-lab/Model-3.0](https://github.com/Iory-lab/Model-3.0)  
-**Commit hash**: `842928e` (reproducible version cited in the manuscript)  
+**Repository**: [https://github.com/Iory-lab/Model-3.0](https://github.com/Iory-lab/Model-3.0)   
 **R version**: 4.4.2  
 
 install.packages(c(
